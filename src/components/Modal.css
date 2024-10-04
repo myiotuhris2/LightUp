@@ -1,0 +1,81 @@
+.modal-container {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+  
+  .modal {
+    border-radius: 5px;
+    padding: 2rem;
+   
+    width: 25em;
+    height:30em;
+    overflow-y: scroll;
+    border-radius: 20px;
+   
+    background-color: transparent;
+    color: aliceblue;
+   
+   
+    border: 4px solid rgba(255,255,255,.4);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    overflow-y: scroll;
+  }
+  
+  .modal .btn {
+    display: block;
+    margin: auto;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+
+  .form-group input,
+  .form-group textarea{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 0.5rem;
+}
+
+.form-group select {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+  
+  .form-group label {
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+  }
+  
+  .error {
+    background-color: #f8d7da;
+    color: #df4759;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+  }
+
+  
