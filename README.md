@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+## **LIGHT UP**:  WEB APPLICATION FOR ELECTRICITY BOARD :high_brightness:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### :bookmark: ABOUT 
 
-## Available Scripts
+:pushpin: It is a web application to view and edit electricity connections for improved staff management. <br/>
+:pushpin: It contains multi-page interface to efficiently track connection applications  and their statuses. <br/>
+:pushpin: It enhances automation  and digitalization to streamline operations and stay ahead of competitors. <br/>
 
-In the project directory, you can run:
+<hr/>
 
-### `npm start`
+### :bookmark: FEATURES
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application has the following features: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+:dart: **Interactive SideBar** - Navigate between different views. <br/>
+:dart: **Dashboard for Connection Requests**  - Tabular view of data for seamless experience. <br/>
+:dart: **Data Visualization** - Interactive charts for connection status analysis segregated on the basis of months. <br/>
+:dart: **Data Validation** - Multiple constraints imposed while adding, editing or deleting data to maintain integrity. <br/>
+:dart: **User Management** - Add, edit, filter, search and delete connection requests. <br/>
+:dart: **Local Data Storage** - Added/modified data not lost between sessions. <br/>
+:dart: **Responsive UI** -  The webapp adjusts to different screen sizes. <br/>
 
-### `npm test`
+<hr/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :bookmark:  TECHNOLOGIES USED
 
-### `npm run build`
+:dart:**React.js** - Front-end JavaScript library. <br/>
+:dart:**react-router-dom** -  For navigating between pages. <br/>
+:dart:**react-apexcharts** -  For data visualization using bar charts. <br/>
+:dart:**framer-motion** -  For handling the SideBar.  <br/>
+:dart:**@iconscout/react-unicons,react-icons** -  For adding icons.  <br/>
+:dart:**react-datepicker** -  For selecting date of application and approval. <br/>
+:dart:**LocalStorage** -  Web Storage for storing connection data locally <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :bookmark: INSTALLATION
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Follow these steps to set up the project locally:**
+<br/><br/>
+:one:  **Clone the repository**
+```bash
+git clone https://github.com/myiotuhris2/LightUp.git
+```
+<br/>
 
-### `npm run eject`
+:two:  **Navigate to the project directory**
+```bash
+cd my-app
+```
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+:three:  **Install node modules**
+```bash
+npm install
+```
+<br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+:four:  **Install dependencies for routing, charts, datepicker and additional icons.**
+```bash
+npm install react-datepicker
+npm install react-router-dom
+npm install @iconscout/react-unicons@^1.1.6
+npm install framer-motion@^6.2.9
+npm install react-apexcharts
+```
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+:five:  **Running the App** <br/>
+  1. Start the development server
+  ```bash
+  npm start run
+  ```
+  <br/>
+    2. The app will start running locally on your browser at  http://localhost:3000.
+  <br/><br/>
+   
+:six:  **Deployment** <br/><br/>
+Deployed using https://www.netlify.com/ at https://lovely-capybara-006185.netlify.app/ .
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<hr/>
 
-## Learn More
+### :bookmark: SCREENSHOTS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/user-attachments/assets/319c5f9b-d413-4249-81b7-54f7b22361ad)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/user-attachments/assets/cee8d9e2-bd8b-4bf5-83e0-01d26e7868ee)
