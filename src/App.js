@@ -50,7 +50,7 @@ function App() {
 
    // Load rows from users.json when the component mounts
    useEffect(() => {
-    const storedRows = JSON.parse(localStorage.getItem("rows"));
+    const storedRows = JSON.parse(localStorage.getItem("rows"))||[];
     if (storedRows.length>0) {
       setRows(storedRows);
       setFilteredRows(storedRows);
